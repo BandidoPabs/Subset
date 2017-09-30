@@ -1,0 +1,8 @@
+Given these sets: A = {1, 2, 3, 4, F, Z} and B = {5, 2, 3, 8, Z}
+
+A is-a-subset-of B ==> False
+B is-a-subset-of A ==> False
+A + B = {1, 2, 3, 4, 5, 8, F, Z, Z}
+A ^ B = {2, 3, Z}
+A - B = {1, 4, F}
+B - A = {5, 8}
